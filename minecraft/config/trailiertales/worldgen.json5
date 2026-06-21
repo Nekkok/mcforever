@@ -1,0 +1,26 @@
+{
+	"catacombs": false,
+	"ruins": {
+		"generic": false,
+		"snowy": false,
+		"jungle": false,
+		"savanna": false,
+		"desert": false,
+		"badlands": false,
+		"deepslate": false,
+	},
+	"vegetation": {
+		"generateTorchflower": false,
+		"generatePitcher": false,
+		"generateCyanRose": false,
+		"generateManedrop": false,
+		"generateGuzmania": false,
+		"generateDawntrail": false,
+		"generateLithops": false,
+	},
+	"endCity": {
+		"generateCracked": false,
+		"generateChoral": false,
+		"generateChiseled": false,
+	},
+}

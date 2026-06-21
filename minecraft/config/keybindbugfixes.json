@@ -1,0 +1,8 @@
+{
+  "bugfix.fix_pick_key_dragging": true,
+  "bugfix.fix_dismount_toggle_sneak": true,
+  "bugfix.fix_screen_sticky_key_reset": true,
+  "bugfix.fix_modifier_sticky_key": true,
+  "bugfix.fix_rebind_to_f3": true,
+  "tweak.drop_when_holding_item": true
+}

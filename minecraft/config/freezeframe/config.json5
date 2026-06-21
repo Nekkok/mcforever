@@ -1,0 +1,30 @@
+{
+	// Photos will not include fog from effects.
+	"cameraIgnoresEffectFog": true,
+	// Enables filter recipes for the Film Roll item.
+	"filmFilterRecipes": true,
+	// Whether Photographs can be placed inside of Books. If you notice visual issues with Book screens, it is likely a mod compat issue.
+	"booksSupportPhotographs": true,
+	// Scope items (Spyglasses and Cameras) will let you change their zoom level with the mouse wheel.
+	"scopeScrolling": true,
+	// The hotbar will be hidden when scoping.
+	"scopeHidesHotbar": true,
+	// The crosshair will be hidden when scoping.
+	"scopeHidesCrosshair": true,
+	// Block outlines will be hidden when scoping.
+	"scopeHidesBlockOutline": true,
+	// Whether the latest-taken Photo in a world should replace the world icon.
+	"useLatestPhotoAsWorldIcon": true,
+	// Hides embedded Photo previews and Photo information text in Film Roll tooltips.
+	"hideFilmPhotoPreviewAndInfo": false,
+	// Hides Photo image previews in tooltips while keeping text information visible.
+	"hidePhotographPreview": false,
+	// Photo items render similarly to their first-person counterpart in third-person.
+	"thirdPersonPhotographItem": false,
+	// Whether items containing Photos will be tracked, deleting the Photograph's file if all items are destroyed. If Photographs randomly go missing, please let us know and disable this options.
+	"photographTracker": true,
+	// The resolution of Photos taken. Will be clamped between 128 and 1024.
+	"photographResolution": 256,
+	// Dictates the file format to save Photos as. mcphoto is treated as jpeg. It is recommended to used mcphoto_very_compressed when using higher resolutions, and mcphoto_lossless when using lower resolutions.
+	"photographFormat": "mcphoto_lossless",
+}

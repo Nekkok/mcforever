@@ -1,0 +1,745 @@
+{
+  "action": "modify_tab",
+  "tabs": [
+    "minecraft:building_blocks"
+  ],
+  "remove_items": [
+    "minecraft:resin_block",
+    "minecraft:coal_block",
+    "minecraft:iron_block",
+    "minecraft:iron_bars",
+    "minecraft:iron_chain",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:gold_block",
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:redstone_block",
+    "minecraft:emerald_block",
+    "minecraft:lapis_block",
+    "minecraft:diamond_block",
+    "minecraft:amethyst_block",
+    "minecraft:quartz_block",
+    "minecraft:quartz_stairs",
+    "minecraft:quartz_slab",
+    "minecraft:chiseled_quartz_block",
+    "minecraft:quartz_bricks",
+    "minecraft:quartz_pillar",
+    "minecraft:smooth_quartz",
+    "minecraft:smooth_quartz_stairs",
+    "minecraft:smooth_quartz_slab",
+    "minecraft:netherite_block",
+    "minecraft:reinforced_deepslate",
+    "minecraft:sculk"
+  ],
+  "add_items": [
+    {
+      "item": "minecraft:netherite_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:smooth_quartz_slab",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:smooth_quartz_stairs",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:smooth_quartz",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:quartz_pillar",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:quartz_bricks",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:chiseled_quartz_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:quartz_slab",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:quartz_stairs",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:quartz_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:amethyst_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:lapis_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:emerald_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:light_weighted_pressure_plate",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:gold_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:heavy_weighted_pressure_plate",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:iron_trapdoor",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:iron_door",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:iron_chain",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:iron_block",
+      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:waxed_oxidized_copper_chain",
+      "after": "minecraft:waxed_oxidized_copper_bars"
+    },
+    {
+      "item": "minecraft:waxed_weathered_copper_chain",
+      "after": "minecraft:waxed_weathered_copper_bars"
+    },
+    {
+      "item": "minecraft:waxed_exposed_copper_chain",
+      "after": "minecraft:waxed_exposed_copper_bars"
+    },
+    {
+      "item": "minecraft:waxed_copper_chain",
+      "after": "minecraft:waxed_copper_bars"
+    },
+    {
+      "item": "minecraft:oxidized_copper_chain",
+      "after": "minecraft:oxidized_copper_bars"
+    },
+    {
+      "item": "minecraft:weathered_copper_chain",
+      "after": "minecraft:weathered_copper_bars"
+    },
+    {
+      "item": "minecraft:exposed_copper_chain",
+      "after": "minecraft:exposed_copper_bars"
+    },
+    {
+      "item": "minecraft:copper_chain",
+      "after": "minecraft:copper_bars"
+    },
+    {
+      "item": "minecraft:chiseled_tuff_bricks",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_brick_wall",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_brick_slab",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_brick_stairs",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_bricks",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:polished_tuff_wall",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:polished_tuff_slab",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:polished_tuff_stairs",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:polished_tuff",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:chiseled_tuff",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_wall",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_slab",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff_stairs",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "minecraft:tuff",
+      "after": "trailiertales:chiseled_calcite_bricks"
+    },
+    {
+      "item": "blockus:raw_bamboo_button",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_pressure_plate",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_trapdoor",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_door",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_fence_gate",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_fence",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_mosaic_slab",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_slab",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_mosaic_stairs",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_stairs",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_mosaic",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_planks",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "minecraft:dark_oak_button",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_pressure_plate",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_trapdoor",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_door",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_fence_gate",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_fence",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_slab",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_stairs",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_planks",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_wood",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_dark_oak_log",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_log",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_wood",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "wilderwild:hollowed_dark_oak_log",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:dark_oak_log",
+      "after": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:cherry_button",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_pressure_plate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_trapdoor",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_door",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_fence_gate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_fence",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_slab",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_stairs",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_planks",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:stripped_cherry_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_cherry_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:stripped_cherry_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:hollowed_cherry_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:cherry_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_button",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_pressure_plate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_trapdoor",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_door",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_fence_gate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_fence",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_slab",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_stairs",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_planks",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_maple_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_maple_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_maple_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:hollowed_maple_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:maple_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_button",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_pressure_plate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_trapdoor",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_door",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_fence_gate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_fence",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_slab",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_stairs",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_planks",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:stripped_mangrove_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_mangrove_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:stripped_mangrove_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:hollowed_mangrove_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:mangrove_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_button",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_pressure_plate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_trapdoor",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_door",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_fence_gate",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_fence",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_slab",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_stairs",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_planks",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_willow_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_willow_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:stripped_willow_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_wood",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:hollowed_willow_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:willow_log",
+      "after": "minecraft:acacia_button"
+    },
+    {
+      "item": "wilderwild:baobab_button",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_pressure_plate",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_trapdoor",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_door",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_fence_gate",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_fence",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_slab",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_stairs",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_planks",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:stripped_baobab_wood",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_baobab_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:stripped_baobab_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_wood",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:hollowed_baobab_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:baobab_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_button",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_pressure_plate",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_trapdoor",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_door",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_fence_gate",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_fence",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_slab",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_stairs",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_planks",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:stripped_palm_wood",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_palm_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:stripped_palm_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_wood",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:hollowed_palm_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "wilderwild:palm_log",
+      "after": "minecraft:jungle_button"
+    },
+    {
+      "item": "minecraft:birch_button",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_pressure_plate",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_trapdoor",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_door",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_fence_gate",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_fence",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_slab",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_stairs",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_planks",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:stripped_birch_wood",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_birch_log",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:stripped_birch_log",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_wood",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "wilderwild:hollowed_birch_log",
+      "after": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:birch_log",
+      "after": "minecraft:oak_button"
+    }
+  ]
+}
