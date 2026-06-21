@@ -1,3 +1,0 @@
-minecraft/saves/**/*.mca filter=lfs diff=lfs merge=lfs -text
-minecraft/saves/**/*.dat filter=lfs diff=lfs merge=lfs -text
-minecraft/saves/**/*.nbt filter=lfs diff=lfs merge=lfs -text
