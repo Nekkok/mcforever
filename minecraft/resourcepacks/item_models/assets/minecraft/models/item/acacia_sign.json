@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/acacia_sign_rot_0",
+  "textures": {
+    "all": "wilderwild:block/cypress_sign",
+    "particle": "wilderwild:block/stripped_cypress_log"
+  }
+}

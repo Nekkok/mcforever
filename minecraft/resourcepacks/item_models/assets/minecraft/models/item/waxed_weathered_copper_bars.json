@@ -1,0 +1,6 @@
+{
+  "parent": "item/iron_bars",
+  "textures": {
+    "edge": "minecraft:block/weathered_copper_bars"
+  }
+}

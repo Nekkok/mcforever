@@ -1,0 +1,6 @@
+{
+  "parent": "sleep_tight:item/templates/hammock",
+  "textures": {
+    "particle": "minecraft:block/black_wool"
+  }
+}

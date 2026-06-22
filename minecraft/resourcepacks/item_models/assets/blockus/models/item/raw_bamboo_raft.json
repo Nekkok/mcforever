@@ -1,0 +1,6 @@
+{
+  "parent": "item/templates/raft",
+  "textures": {
+    "raft": "blockus:entity/raft/raw_bamboo"
+  }
+}

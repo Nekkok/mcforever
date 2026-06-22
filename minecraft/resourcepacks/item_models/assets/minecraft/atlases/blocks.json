@@ -1,0 +1,72 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "block/",
+      "source": "block"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "entity",
+      "prefix": "entity/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "painting",
+      "prefix": "painting/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "models/armor",
+      "prefix": "models/armor/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "trims",
+      "prefix": "trims/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "colormap",
+      "prefix": "colormap/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "model",
+      "prefix": "model/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "misc",
+      "prefix": "misc/"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/bell/bell_body"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/enchantment/enchanting_table_book"
+    },
+    {
+      "type": "minecraft:paletted_permutations",
+      "textures": [
+        "block/lily_pad"
+      ],
+      "palette_key": "colormap/color_palettes/lily_pad_palette",
+      "permutations": {
+        "tint": "colormap/color_palettes/lily_pad"
+      }
+    },
+    {
+      "type": "minecraft:paletted_permutations",
+      "textures": [
+        "wilderwild:block/lily_pad_root"
+      ],
+      "palette_key": "wilderwild:colormap/color_palettes/lily_pad_root_palette",
+      "permutations": {
+        "tint": "wilderwild:colormap/color_palettes/lily_pad_root"
+      }
+    }
+  ]
+}

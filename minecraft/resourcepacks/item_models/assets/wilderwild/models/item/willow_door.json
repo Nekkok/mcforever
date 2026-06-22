@@ -1,0 +1,7 @@
+{
+  "parent": "item/templates/door",
+  "textures": {
+    "top": "wilderwild:block/willow_door_top",
+    "bottom": "wilderwild:block/willow_door_bottom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/templates/chest_raft",
+  "textures": {
+    "chest_raft": "blockus:entity/chest_raft/raw_bamboo"
+  }
+}

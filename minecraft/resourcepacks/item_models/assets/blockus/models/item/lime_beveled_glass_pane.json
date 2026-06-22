@@ -1,0 +1,7 @@
+{
+  "parent": "item/templates/glass_pane",
+  "textures": {
+    "pane": "blockus:block/lime_beveled_glass",
+    "edge": "blockus:block/beveled_glass_pane_top"
+  }
+}

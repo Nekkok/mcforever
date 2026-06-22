@@ -1,0 +1,6 @@
+{
+  "parent": "item/templates/chest_boat",
+  "textures": {
+    "chest_boat": "wilderwild:entity/chest_boat/cypress"
+  }
+}

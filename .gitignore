@@ -2,6 +2,8 @@ minecraft/.fabric/
 minecraft/.mixin.out/
 minecraft/backups/
 minecraft/cache/
+minecraft/config/jei/world/local/
+minecraft/config/recreative_exports/
 minecraft/coremods/
 minecraft/crash-reports/
 minecraft/data/
@@ -14,12 +16,14 @@ minecraft/logs/
 minecraft/mods/.index/
 minecraft/mods/*.disabled
 minecraft/mods/*.jar
+minecraft/photographs/
 minecraft/saves/
 minecraft/server-resource-packs/
 minecraft/shaderpacks/*.zip
 minecraft/texturepacks/
 minecraft/command_history.txt
 minecraft/debug-profile.json
+minecraft/options.txt
 minecraft/realms_persistence.json
 minecraft/servers.dat
 minecraft/usercache.json
