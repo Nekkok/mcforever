@@ -28,6 +28,8 @@ minecraft/realms_persistence.json
 minecraft/servers.dat
 minecraft/usercache.json
 minecraft/usernamecache.json
+
 !minecraft/essential/
 !minecraft/essential/config.toml
+
 *.log
