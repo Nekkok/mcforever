@@ -27,6 +27,7 @@ minecraft/mods/*.jar
 minecraft/mods/*.disabled
 minecraft/mods/.index/
 minecraft/config/jei/world/local/
+minecraft/config/recreative_exports/
 minecraft/essential/**
 !minecraft/essential/
 !minecraft/essential/config.toml
