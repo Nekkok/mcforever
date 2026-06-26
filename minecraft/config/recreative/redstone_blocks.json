@@ -1,0 +1,259 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": "minecraft:redstone_blocks",
+    "remove_items": [
+      "minecraft:bamboo_chest_raft",
+      "minecraft:big_dripleaf",
+      "minecraft:chest",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:daylight_detector",
+      "minecraft:heavy_weighted_pressure_plate",
+      "minecraft:jukebox",
+      "minecraft:lectern",
+      "minecraft:light_weighted_pressure_plate",
+      "minecraft:note_block",
+      "minecraft:oak_chest_boat",
+      "minecraft:oak_shelf",
+      "minecraft:observer",
+      "minecraft:redstone_lamp",
+      "minecraft:string",
+      "minecraft:tripwire_hook",
+      "minecraft:waxed_copper_chest"
+    ],
+    "add_items": [
+      {
+        "item": "minecraft:oak_fence_gate",
+        "after": "minecraft:tnt_minecart"
+      },
+      {
+        "item": "minecraft:furnace_minecart",
+        "after": "minecraft:minecart"
+      },
+      {
+        "item": "minecraft:armor_stand",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:observer",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:end_portal_frame",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:respawn_anchor",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:dragon_head",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:waxed_oxidized_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:waxed_weathered_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:waxed_exposed_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:waxed_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:oxidized_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:weathered_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:exposed_copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:copper_golem_statue",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:bell",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:note_block",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:jukebox",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:chiseled_bookshelf",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:oak_shelf",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:item_frame",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:lectern",
+        "after": "minecraft:cauldron"
+      },
+      {
+        "item": "minecraft:beehive",
+        "after": "minecraft:furnace"
+      },
+      {
+        "item": "minecraft:brewing_stand",
+        "after": "minecraft:furnace"
+      },
+      {
+        "item": "minecraft:decorated_pot",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:shulker_box",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:waxed_oxidized_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:waxed_weathered_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:waxed_exposed_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:waxed_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:oxidized_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:weathered_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:exposed_copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:copper_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:trapped_chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:chest",
+        "after": "minecraft:barrel"
+      },
+      {
+        "item": "minecraft:daylight_detector",
+        "after": "minecraft:waxed_lightning_rod"
+      },
+      {
+        "item": "minecraft:waxed_oxidized_lightning_rod",
+        "after": "minecraft:waxed_lightning_rod"
+      },
+      {
+        "item": "minecraft:waxed_weathered_lightning_rod",
+        "after": "minecraft:waxed_lightning_rod"
+      },
+      {
+        "item": "minecraft:waxed_exposed_lightning_rod",
+        "after": "minecraft:waxed_lightning_rod"
+      },
+      {
+        "item": "minecraft:oxidized_lightning_rod",
+        "after": "minecraft:white_wool"
+      },
+      {
+        "item": "minecraft:weathered_lightning_rod",
+        "after": "minecraft:white_wool"
+      },
+      {
+        "item": "minecraft:exposed_lightning_rod",
+        "after": "minecraft:white_wool"
+      },
+      {
+        "item": "minecraft:lightning_rod",
+        "after": "minecraft:white_wool"
+      },
+      {
+        "item": "minecraft:big_dripleaf",
+        "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      },
+      {
+        "item": "minecraft:light_weighted_pressure_plate",
+        "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      },
+      {
+        "item": "minecraft:heavy_weighted_pressure_plate",
+        "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      },
+      {
+        "item": "thecopperierage:oxidized_weighted_pressure_plate",
+        "after": "minecraft:stone_pressure_plate"
+      },
+      {
+        "item": "thecopperierage:weathered_weighted_pressure_plate",
+        "after": "minecraft:stone_pressure_plate"
+      },
+      {
+        "item": "thecopperierage:exposed_weighted_pressure_plate",
+        "after": "minecraft:stone_pressure_plate"
+      },
+      {
+        "item": "thecopperierage:weighted_pressure_plate",
+        "after": "minecraft:stone_pressure_plate"
+      },
+      {
+        "item": "minecraft:string",
+        "after": "minecraft:stone_button"
+      },
+      {
+        "item": "minecraft:tripwire_hook",
+        "after": "minecraft:stone_button"
+      },
+      {
+        "item": "minecraft:redstone_lamp",
+        "after": "minecraft:waxed_oxidized_copper_bulb"
+      },
+      {
+        "item": "minecraft:oxidized_copper_bulb",
+        "after": "minecraft:target"
+      },
+      {
+        "item": "minecraft:weathered_copper_bulb",
+        "after": "minecraft:target"
+      },
+      {
+        "item": "minecraft:exposed_copper_bulb",
+        "after": "minecraft:target"
+      },
+      {
+        "item": "minecraft:copper_bulb",
+        "after": "minecraft:target"
+      }
+    ]
+  }
+]

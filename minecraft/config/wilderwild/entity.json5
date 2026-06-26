@@ -49,7 +49,7 @@
 		"spawnPenguins": true,
 	},
 	"tumbleweed": {
-		"spawnTumbleweed": true,
+		"spawnTumbleweed": false,
 		"tumbleweedSpawnCap": 10,
 		"leashedTumbleweed": false,
 		"tumbleweedDestroysCrops": true,

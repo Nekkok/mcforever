@@ -4,44 +4,41 @@
     "minecraft:natural_blocks"
   ],
   "remove_items": [
-    "minecraft:iron_ore",
-    "minecraft:deepslate_iron_ore",
-    "minecraft:crimson_roots",
-    "minecraft:warped_roots",
-    "minecraft:nether_sprouts",
-    "minecraft:blue_orchid",
-    "minecraft:cactus_flower",
-    "minecraft:torchflower",
-    "trailiertales:cyan_rose",
-    "wilderwild:clovers",
-    "minecraft:wildflowers",
-    "minecraft:pink_petals",
-    "minecraft:large_fern",
-    "minecraft:sunflower",
-    "minecraft:leaf_litter",
-    "minecraft:firefly_bush",
+    "minecraft:bamboo",
+    "minecraft:bee_nest",
     "minecraft:big_dripleaf",
+    "minecraft:blue_orchid",
+    "minecraft:cactus",
+    "minecraft:cactus_flower",
+    "minecraft:cactus_flower",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:dried_ghast",
+    "minecraft:firefly_bush",
+    "minecraft:frogspawn",
+    "minecraft:honey_block",
+    "minecraft:honeycomb_block",
+    "minecraft:iron_ore",
+    "minecraft:large_fern",
+    "minecraft:leaf_litter",
+    "minecraft:pink_petals",
+    "minecraft:resin_block",
+    "minecraft:sculk_shrieker",
+    "minecraft:slime_block",
     "minecraft:small_dripleaf",
+    "minecraft:sniffer_egg",
     "minecraft:spore_blossom",
-    "minecraft:chorus_plant",
-    "minecraft:chorus_flower",
+    "minecraft:sugar_cane",
+    "minecraft:sunflower",
+    "minecraft:torchflower",
+    "minecraft:turtle_egg",
+    "minecraft:twisting_vines",
     "minecraft:vine",
     "minecraft:weeping_vines",
-    "minecraft:twisting_vines",
-    "minecraft:bamboo",
-    "minecraft:sugar_cane",
-    "minecraft:cactus",
-    "minecraft:slime_block",
-    "minecraft:honey_block",
-    "minecraft:bee_nest",
-    "minecraft:honeycomb_block",
-    "minecraft:hay_block",
-    "minecraft:frogspawn",
-    "minecraft:turtle_egg",
+    "minecraft:wildflowers",
+    "trailiertales:cyan_rose",
+    "wilderwild:clovers",
     "wilderwild:penguin_egg",
-    "minecraft:sniffer_egg",
-    "minecraft:dried_ghast",
-    "minecraft:sculk_shrieker"
+    "wilderwild:termite_mound"
   ],
   "add_items": [
     {
@@ -97,11 +94,27 @@
       "after": "minecraft:pearlescent_froglight"
     },
     {
-      "item": "minecraft:suspicious_sand",
+      "item": "minecraft:cobweb",
       "after": "minecraft:pearlescent_froglight"
     },
     {
-      "item": "minecraft:suspicious_gravel",
+      "item": "wilderwild:termite_mound",
+      "after": "minecraft:pearlescent_froglight"
+    },
+    {
+      "item": "minecraft:honeycomb_block",
+      "after": "minecraft:pearlescent_froglight"
+    },
+    {
+      "item": "minecraft:bee_nest",
+      "after": "minecraft:pearlescent_froglight"
+    },
+    {
+      "item": "minecraft:resin_block",
+      "after": "minecraft:pearlescent_froglight"
+    },
+    {
+      "item": "minecraft:creaking_heart",
       "after": "minecraft:pearlescent_froglight"
     },
     {
@@ -125,23 +138,27 @@
       "after": "minecraft:pearlescent_froglight"
     },
     {
+      "item": "minecraft:cocoa_beans",
+      "after": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "after": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "after": "minecraft:wheat_seeds"
+    },
+    {
       "item": "minecraft:hay_block",
       "after": "trailiertales:manedrop"
     },
     {
-      "item": "minecraft:honeycomb_block",
-      "after": "trailiertales:manedrop"
-    },
-    {
-      "item": "minecraft:bee_nest",
-      "after": "trailiertales:manedrop"
-    },
-    {
-      "item": "minecraft:cobweb",
-      "after": "trailiertales:manedrop"
-    },
-    {
       "item": "thecopperierage:copper_jack_o_lantern",
+      "after": "trailiertales:manedrop"
+    },
+    {
+      "item": "blockus:soul_o_lantern",
       "after": "trailiertales:manedrop"
     },
     {
@@ -225,10 +242,6 @@
       "after": "trailiertales:manedrop"
     },
     {
-      "item": "minecraft:firefly_bush",
-      "after": "trailiertales:manedrop"
-    },
-    {
       "item": "trailiertales:lithops",
       "after": "trailiertales:manedrop"
     },
@@ -309,8 +322,16 @@
       "after": "minecraft:dead_bush"
     },
     {
+      "item": "minecraft:firefly_bush",
+      "after": "minecraft:bush"
+    },
+    {
       "item": "minecraft:short_dry_grass",
       "after": "minecraft:short_grass"
+    },
+    {
+      "item": "minecraft:pale_oak_sapling",
+      "after": "minecraft:acacia_sapling"
     },
     {
       "item": "minecraft:dark_oak_sapling",
@@ -318,18 +339,6 @@
     },
     {
       "item": "minecraft:cherry_sapling",
-      "after": "minecraft:acacia_sapling"
-    },
-    {
-      "item": "wilderwild:yellow_maple_sapling",
-      "after": "minecraft:acacia_sapling"
-    },
-    {
-      "item": "wilderwild:orange_maple_sapling",
-      "after": "minecraft:acacia_sapling"
-    },
-    {
-      "item": "wilderwild:red_maple_sapling",
       "after": "minecraft:acacia_sapling"
     },
     {
@@ -353,23 +362,15 @@
       "after": "minecraft:oak_sapling"
     },
     {
+      "item": "minecraft:pale_oak_leaves",
+      "after": "minecraft:acacia_leaves"
+    },
+    {
       "item": "minecraft:dark_oak_leaves",
       "after": "minecraft:acacia_leaves"
     },
     {
       "item": "minecraft:cherry_leaves",
-      "after": "minecraft:acacia_leaves"
-    },
-    {
-      "item": "wilderwild:yellow_maple_leaves",
-      "after": "minecraft:acacia_leaves"
-    },
-    {
-      "item": "wilderwild:orange_maple_leaves",
-      "after": "minecraft:acacia_leaves"
-    },
-    {
-      "item": "wilderwild:red_maple_leaves",
       "after": "minecraft:acacia_leaves"
     },
     {
@@ -393,11 +394,15 @@
       "after": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:creaking_heart",
+      "item": "minecraft:mushroom_stem",
+      "after": "minecraft:muddy_mangrove_roots"
+    },
+    {
+      "item": "minecraft:suspicious_sand",
       "after": "minecraft:amethyst_cluster"
     },
     {
-      "item": "minecraft:resin_block",
+      "item": "minecraft:suspicious_gravel",
       "after": "minecraft:amethyst_cluster"
     },
     {
@@ -409,16 +414,28 @@
       "after": "minecraft:ancient_debris"
     },
     {
+      "item": "minecraft:deepslate_lapis_ore",
+      "after": "minecraft:deepslate_redstone_ore"
+    },
+    {
+      "item": "minecraft:lapis_ore",
+      "after": "minecraft:deepslate_redstone_ore"
+    },
+    {
+      "item": "minecraft:deepslate_diamond_ore",
+      "after": "minecraft:deepslate_gold_ore"
+    },
+    {
+      "item": "minecraft:diamond_ore",
+      "after": "minecraft:deepslate_gold_ore"
+    },
+    {
       "item": "minecraft:deepslate_iron_ore",
       "after": "minecraft:deepslate_copper_ore"
     },
     {
       "item": "minecraft:iron_ore",
       "after": "minecraft:deepslate_copper_ore"
-    },
-    {
-      "item": "wilderwild:termite_mound",
-      "after": "minecraft:pale_hanging_moss"
     }
   ]
 }

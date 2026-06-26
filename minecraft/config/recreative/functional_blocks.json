@@ -4,43 +4,88 @@
     "minecraft:functional_blocks"
   ],
   "remove_items": [
-    "minecraft:loom",
     "freezeframe:developing_table",
-    "minecraft:cartography_table",
-    "minecraft:fletching_table",
-    "minecraft:smithing_table",
-    "minecraft:grindstone",
-    "minecraft:cauldron",
-    "minecraft:brewing_stand",
-    "minecraft:lectern",
-    "minecraft:conduit",
-    "minecraft:beacon",
-    "minecraft:torch",
-    "minecraft:soul_torch",
-    "minecraft:copper_torch",
-    "minecraft:redstone_torch",
-    "minecraft:lantern",
-    "minecraft:soul_lantern",
-    "minecraft:copper_lantern",
-    "minecraft:exposed_copper_lantern",
-    "minecraft:weathered_copper_lantern",
-    "minecraft:oxidized_copper_lantern",
-    "minecraft:waxed_copper_lantern",
-    "minecraft:waxed_exposed_copper_lantern",
-    "minecraft:waxed_weathered_copper_lantern",
-    "minecraft:waxed_oxidized_copper_lantern",
-    "minecraft:end_rod",
     "minecraft:acacia_shelf",
-    "minecraft:mangrove_shelf",
+    "minecraft:bee_nest",
+    "minecraft:bookshelf",
+    "minecraft:cartography_table",
     "minecraft:cherry_shelf",
+    "minecraft:chiseled_bookshelf",
+    "minecraft:copper_bulb",
+    "minecraft:copper_chain",
+    "minecraft:copper_lantern",
+    "minecraft:copper_torch",
+    "minecraft:crying_obsidian",
     "minecraft:dark_oak_shelf",
-    "wilderwild:stone_chest",
+    "minecraft:enchanting_table",
+    "minecraft:end_portal_frame",
+    "minecraft:end_rod",
+    "minecraft:ender_eye",
+    "minecraft:exposed_copper_bulb",
+    "minecraft:exposed_copper_chain",
+    "minecraft:exposed_copper_lantern",
+    "minecraft:exposed_lightning_rod",
+    "minecraft:fletching_table",
+    "minecraft:glow_lichen",
+    "minecraft:glowstone",
+    "minecraft:grindstone",
+    "minecraft:infested_chiseled_stone_bricks",
+    "minecraft:infested_cobblestone",
+    "minecraft:infested_cracked_stone_bricks",
+    "minecraft:infested_deepslate",
+    "minecraft:infested_mossy_stone_bricks",
+    "minecraft:infested_stone",
+    "minecraft:infested_stone_bricks",
+    "minecraft:iron_chain",
     "minecraft:jukebox",
+    "minecraft:lantern",
+    "minecraft:lightning_rod",
+    "minecraft:loom",
+    "minecraft:magma_block",
+    "minecraft:mangrove_shelf",
     "minecraft:note_block",
-    "minecraft:zombie_head",
+    "minecraft:ochre_froglight",
+    "minecraft:oxidized_copper_bulb",
+    "minecraft:oxidized_copper_chain",
+    "minecraft:oxidized_copper_lantern",
+    "minecraft:oxidized_lightning_rod",
+    "minecraft:pearlescent_froglight",
+    "minecraft:redstone_lamp",
+    "minecraft:redstone_torch",
+    "minecraft:sea_lantern",
+    "minecraft:shroomlight",
     "minecraft:skeleton_skull",
+    "minecraft:smithing_table",
+    "minecraft:soul_lantern",
+    "minecraft:soul_torch",
+    "minecraft:suspicious_gravel",
+    "minecraft:suspicious_sand",
+    "minecraft:torch",
+    "minecraft:vault",
+    "minecraft:verdant_froglight",
+    "minecraft:waxed_copper_bulb",
+    "minecraft:waxed_copper_chain",
+    "minecraft:waxed_copper_lantern",
+    "minecraft:waxed_exposed_copper_bulb",
+    "minecraft:waxed_exposed_copper_chain",
+    "minecraft:waxed_exposed_copper_lantern",
+    "minecraft:waxed_exposed_lightning_rod",
+    "minecraft:waxed_lightning_rod",
+    "minecraft:waxed_oxidized_copper_bulb",
+    "minecraft:waxed_oxidized_copper_chain",
+    "minecraft:waxed_oxidized_copper_lantern",
+    "minecraft:waxed_oxidized_lightning_rod",
+    "minecraft:waxed_weathered_copper_bulb",
+    "minecraft:waxed_weathered_copper_chain",
+    "minecraft:waxed_weathered_copper_lantern",
+    "minecraft:waxed_weathered_lightning_rod",
+    "minecraft:weathered_copper_bulb",
+    "minecraft:weathered_copper_chain",
+    "minecraft:weathered_copper_lantern",
+    "minecraft:weathered_lightning_rod",
     "minecraft:wither_skeleton_skull",
-    "minecraft:ender_eye"
+    "minecraft:zombie_head",
+    "wilderwild:willow_shelf"
   ],
   "add_items": [
     {
@@ -57,592 +102,27 @@
     },
     {
       "item": "minecraft:note_block",
-      "after": "minecraft:ender_chest"
+      "after": "minecraft:damaged_anvil"
     },
     {
       "item": "minecraft:jukebox",
-      "after": "minecraft:ender_chest"
+      "after": "minecraft:damaged_anvil"
     },
     {
-      "item": "wilderwild:stone_chest",
-      "after": "minecraft:waxed_oxidized_copper_chest"
-    },
-    {
-      "item": "blockus:raw_bamboo_shelf",
-      "after": "minecraft:pale_oak_shelf"
-    },
-    {
-      "item": "minecraft:dark_oak_shelf",
-      "after": "wilderwild:maple_shelf"
-    },
-    {
-      "item": "minecraft:cherry_shelf",
-      "after": "wilderwild:maple_shelf"
-    },
-    {
-      "item": "minecraft:mangrove_shelf",
-      "after": "wilderwild:willow_shelf"
-    },
-    {
-      "item": "minecraft:acacia_shelf",
-      "after": "wilderwild:baobab_shelf"
-    },
-    {
-      "item": "wilderwild:palm_shelf",
-      "after": "minecraft:jungle_shelf"
-    },
-    {
-      "item": "minecraft:birch_shelf",
-      "after": "minecraft:oak_shelf"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:unpacked"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:pointer"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:pigscene"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:orb"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:burning_skull"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:skeleton"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:donkey_kong"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:pond"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:backyard"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:tides"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:sunflowers"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:owlemons"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:fern"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:endboss"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:dennis"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:cotan"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:cavebird"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:bouquet"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:passage"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:lowmist"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:finding"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:fighters"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:changing"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:wither"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:void"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:stage"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:skull_and_roses"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:match"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:humble"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:bust"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:baroque"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:sunset"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:sea"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:pool"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:creebet"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:courbet"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:wanderer"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:prairie_ride"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:graham"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:wasteland"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:plant"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:meditative"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:kebab"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:bomb"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:aztec2"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:aztec"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "components": {
-        "minecraft:painting/variant": "minecraft:alban"
-      },
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:painting",
-      "after": "minecraft:glow_item_frame"
-    },
-    {
-      "item": "minecraft:warped_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:warped_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:crimson_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:crimson_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:bamboo_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:bamboo_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "blockus:raw_bamboo_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "blockus:raw_bamboo_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:pale_oak_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:pale_oak_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:dark_oak_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:dark_oak_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:cherry_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:cherry_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:maple_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:maple_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:mangrove_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:mangrove_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:willow_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:willow_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:acacia_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:acacia_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:baobab_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:baobab_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:palm_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "wilderwild:palm_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:jungle_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:jungle_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:spruce_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:spruce_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:birch_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:birch_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:oak_hanging_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:oak_sign",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:scaffolding",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:ladder",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:end_rod",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:waxed_oxidized_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:waxed_weathered_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:waxed_exposed_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:waxed_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:oxidized_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:weathered_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:exposed_copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:copper_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:soul_lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:lantern",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:redstone_torch",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:copper_torch",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:soul_torch",
-      "after": "minecraft:lodestone"
-    },
-    {
-      "item": "minecraft:torch",
-      "after": "minecraft:lodestone"
+      "item": "minecraft:end_crystal",
+      "after": "minecraft:damaged_anvil"
     },
     {
       "item": "minecraft:beacon",
-      "after": "minecraft:lodestone"
+      "after": "minecraft:damaged_anvil"
     },
     {
       "item": "minecraft:conduit",
-      "after": "minecraft:lodestone"
+      "after": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:respawn_anchor",
-      "after": "minecraft:lodestone"
+      "item": "minecraft:enchanting_table",
+      "after": "minecraft:damaged_anvil"
     },
     {
       "item": "minecraft:bookshelf",
@@ -650,6 +130,975 @@
     },
     {
       "item": "minecraft:chiseled_bookshelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:warped_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:crimson_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:bamboo_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "blockus:raw_bamboo_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pale_oak_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:dark_oak_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cherry_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:mangrove_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:willow_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:acacia_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:baobab_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:palm_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:jungle_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:spruce_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:birch_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:oak_shelf",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:glow_item_frame",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:item_frame",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:armor_stand",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:decorated_pot",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:flower_pot",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:unpacked"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:pointer"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:pigscene"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:orb"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:burning_skull"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:skeleton"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:donkey_kong"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:pond"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:backyard"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:tides"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:sunflowers"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:owlemons"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:fern"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:endboss"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:dennis"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:cotan"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:cavebird"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:bouquet"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:passage"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:lowmist"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:finding"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:fighters"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:changing"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:wither"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:void"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:stage"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:skull_and_roses"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:match"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:humble"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:bust"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:baroque"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:sunset"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:sea"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:pool"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:creebet"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:courbet"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:wanderer"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:prairie_ride"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:graham"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:wasteland"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:plant"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:meditative"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:kebab"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:bomb"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:aztec2"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:aztec"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "components": {
+        "minecraft:painting/variant": "minecraft:alban"
+      },
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:painting",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pink_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:magenta_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:purple_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:blue_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_blue_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cyan_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:green_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:lime_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:yellow_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:orange_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:red_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:brown_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:black_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:gray_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_gray_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:white_banner",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:warped_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:warped_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:crimson_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:crimson_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:bamboo_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:bamboo_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "blockus:raw_bamboo_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "blockus:raw_bamboo_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pale_oak_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pale_oak_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:dark_oak_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:dark_oak_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cherry_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cherry_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:mangrove_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:mangrove_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:willow_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:willow_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:acacia_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:acacia_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:baobab_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:baobab_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:palm_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:palm_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:jungle_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:jungle_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:spruce_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:spruce_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:birch_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:birch_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:oak_hanging_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:oak_sign",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:end_rod",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pink_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:magenta_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:purple_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:blue_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_blue_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cyan_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:green_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:lime_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:yellow_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:orange_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:red_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:brown_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:black_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:gray_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_gray_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:white_candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:candle",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_oxidized_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_weathered_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_exposed_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:oxidized_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:weathered_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:exposed_copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:copper_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:soul_lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:lantern",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:redstone_torch",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:copper_torch",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:soul_torch",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:torch",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:scaffolding",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:ladder",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:lodestone",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pink_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:magenta_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:purple_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:blue_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_blue_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cyan_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:green_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:lime_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:yellow_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:orange_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:red_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:brown_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:black_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:gray_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_gray_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:white_bed",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:respawn_anchor",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:pink_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:magenta_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:purple_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:blue_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_blue_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:cyan_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:green_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:lime_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:yellow_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:orange_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:red_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:brown_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:black_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:gray_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:light_gray_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:white_shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:shulker_box",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:ender_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "wilderwild:stone_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_oxidized_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_weathered_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_exposed_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:oxidized_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:weathered_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:exposed_copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:copper_golem_statue",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_oxidized_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_weathered_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_exposed_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:waxed_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:oxidized_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:weathered_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:exposed_copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:copper_chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:chest",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:barrel",
+      "after": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:bell",
       "after": "minecraft:damaged_anvil"
     },
     {
@@ -677,11 +1126,11 @@
       "after": "thecopperierage:copper_campfire"
     },
     {
-      "item": "minecraft:cartography_table",
+      "item": "freezeframe:developing_table",
       "after": "thecopperierage:copper_campfire"
     },
     {
-      "item": "freezeframe:developing_table",
+      "item": "minecraft:cartography_table",
       "after": "thecopperierage:copper_campfire"
     },
     {
@@ -695,6 +1144,126 @@
     {
       "item": "minecraft:beehive",
       "after": "thecopperierage:copper_campfire"
+    },
+    {
+      "item": "minecraft:tinted_glass",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:pink_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:magenta_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:purple_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:blue_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:light_blue_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:cyan_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:green_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:lime_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:yellow_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:orange_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:red_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:brown_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:black_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:gray_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:light_gray_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "blockus:white_redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:redstone_lamp",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:waxed_oxidized_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:waxed_weathered_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:waxed_exposed_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:waxed_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:oxidized_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:weathered_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:exposed_copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:copper_bulb",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:pearlescent_froglight",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:verdant_froglight",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:ochre_froglight",
+      "after": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:sea_lantern",
+      "after": "minecraft:end_rod"
     }
   ]
 }

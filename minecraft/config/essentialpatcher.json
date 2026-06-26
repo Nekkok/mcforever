@@ -5,7 +5,7 @@
   "disableTelemetry": true,
   "disableFPSTelemetry": true,
   "disableImpressionTracking": true,
-  "disableAllNotices": false,
+  "disableAllNotices": true,
   "disableSaleNotices": true,
   "disableWardrobeBanners": true,
   "disablePromoToasts": true,

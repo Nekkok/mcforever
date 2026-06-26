@@ -1,0 +1,11 @@
+{
+  "accent_bars": false,
+  "show_mod_icons": true,
+  "coloured_header_text": false,
+  "coloured_category_text": true,
+  "coloured_tab_underlines": true,
+  "show_mod_versions": false,
+  "use_tabs": false,
+  "collapse_threshold": 2,
+  "collapse_sodium_options": true
+}

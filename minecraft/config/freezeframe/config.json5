@@ -14,11 +14,11 @@
 	// Block outlines will be hidden when scoping.
 	"scopeHidesBlockOutline": true,
 	// Whether the latest-taken Photo in a world should replace the world icon.
-	"useLatestPhotoAsWorldIcon": true,
+	"useLatestPhotoAsWorldIcon": false,
 	// Hides embedded Photo previews and Photo information text in Film Roll tooltips.
-	"hideFilmPhotoPreviewAndInfo": false,
+	"hideFilmPhotoPreviewAndInfo": true,
 	// Hides Photo image previews in tooltips while keeping text information visible.
-	"hidePhotographPreview": false,
+	"hidePhotographPreview": true,
 	// Photo items render similarly to their first-person counterpart in third-person.
 	"thirdPersonPhotographItem": false,
 	// Whether items containing Photos will be tracked, deleting the Photograph's file if all items are destroyed. If Photographs randomly go missing, please let us know and disable this options.

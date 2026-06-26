@@ -1,0 +1,335 @@
+{
+  "action": "modify_tab",
+  "tabs": [
+    "minecraft:tools_and_utilities"
+  ],
+  "remove_items": [
+    "freezeframe:film",
+    "minecraft:axolotl_bucket",
+    "minecraft:black_harness",
+    "minecraft:blue_harness",
+    "minecraft:brown_harness",
+    "minecraft:copper_pickaxe",
+    "minecraft:copper_shovel",
+    "minecraft:cyan_harness",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_shovel",
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_shovel",
+    "minecraft:gray_harness",
+    "minecraft:green_harness",
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_shovel",
+    "minecraft:lead",
+    "minecraft:light_blue_harness",
+    "minecraft:lime_harness",
+    "minecraft:magenta_harness",
+    "minecraft:music_disc_pigstep",
+    "minecraft:name_tag",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_shovel",
+    "minecraft:orange_harness",
+    "minecraft:pink_harness",
+    "minecraft:purple_harness",
+    "minecraft:red_harness",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_shovel",
+    "minecraft:wooden_pickaxe",
+    "minecraft:wooden_shovel",
+    "minecraft:yellow_harness"
+  ],
+  "add_items": [
+    {
+      "item": "minecraft:experience_bottle",
+      "after": "minecraft:music_disc_tears"
+    },
+    {
+      "item": "minecraft:ominous_trial_key",
+      "after": "minecraft:music_disc_tears"
+    },
+    {
+      "item": "minecraft:trial_key",
+      "after": "minecraft:music_disc_tears"
+    },
+    {
+      "item": "minecraft:music_disc_pigstep",
+      "after": "minecraft:music_disc_tears"
+    },
+    {
+      "item": "minecraft:music_disc_lava_chicken",
+      "after": "minecraft:music_disc_5"
+    },
+    {
+      "item": "minecraft:music_disc_bounce",
+      "after": "minecraft:music_disc_precipice"
+    },
+    {
+      "item": "minecraft:music_disc_relic",
+      "after": "minecraft:music_disc_11"
+    },
+    {
+      "item": "minecraft:music_disc_wait",
+      "after": "minecraft:music_disc_11"
+    },
+    {
+      "item": "blockus:raw_bamboo_chest_raft",
+      "after": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "item": "blockus:raw_bamboo_raft",
+      "after": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "item": "minecraft:pale_oak_chest_boat",
+      "after": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "item": "minecraft:pale_oak_boat",
+      "after": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "item": "minecraft:cherry_chest_boat",
+      "after": "minecraft:acacia_chest_boat"
+    },
+    {
+      "item": "minecraft:cherry_boat",
+      "after": "minecraft:acacia_chest_boat"
+    },
+    {
+      "item": "minecraft:mangrove_chest_boat",
+      "after": "minecraft:acacia_chest_boat"
+    },
+    {
+      "item": "minecraft:mangrove_boat",
+      "after": "minecraft:acacia_chest_boat"
+    },
+    {
+      "item": "wilderwild:willow_chest_boat",
+      "after": "minecraft:acacia_chest_boat"
+    },
+    {
+      "item": "wilderwild:willow_boat",
+      "after": "minecraft:acacia_chest_boat"
+    },
+    {
+      "item": "wilderwild:baobab_chest_boat",
+      "after": "minecraft:jungle_chest_boat"
+    },
+    {
+      "item": "wilderwild:baobab_boat",
+      "after": "minecraft:jungle_chest_boat"
+    },
+    {
+      "item": "wilderwild:palm_chest_boat",
+      "after": "minecraft:jungle_chest_boat"
+    },
+    {
+      "item": "wilderwild:palm_boat",
+      "after": "minecraft:jungle_chest_boat"
+    },
+    {
+      "item": "minecraft:spruce_chest_boat",
+      "after": "minecraft:birch_chest_boat"
+    },
+    {
+      "item": "minecraft:spruce_boat",
+      "after": "minecraft:birch_chest_boat"
+    },
+    {
+      "item": "minecraft:pink_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:magenta_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:purple_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:blue_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:light_blue_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:cyan_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:green_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:lime_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:yellow_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:orange_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:red_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:brown_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:black_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:gray_harness",
+      "after": "minecraft:light_gray_harness"
+    },
+    {
+      "item": "minecraft:lead",
+      "after": "minecraft:writable_book"
+    },
+    {
+      "item": "minecraft:name_tag",
+      "after": "minecraft:writable_book"
+    },
+    {
+      "item": "minecraft:axolotl_bucket",
+      "after": "minecraft:tadpole_bucket"
+    },
+    {
+      "item": "wilderwild:crab_bucket",
+      "after": "minecraft:pufferfish_bucket"
+    },
+    {
+      "item": "minecraft:pink_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:magenta_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:purple_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:blue_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:light_blue_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:cyan_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:green_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:lime_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:yellow_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:orange_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:red_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:brown_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:black_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:gray_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:light_gray_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:white_bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:bundle",
+      "after": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "minecraft:netherite_shovel",
+      "after": "minecraft:netherite_axe"
+    },
+    {
+      "item": "minecraft:netherite_pickaxe",
+      "after": "minecraft:netherite_axe"
+    },
+    {
+      "item": "minecraft:diamond_shovel",
+      "after": "minecraft:diamond_axe"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe",
+      "after": "minecraft:diamond_axe"
+    },
+    {
+      "item": "minecraft:golden_shovel",
+      "after": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:golden_pickaxe",
+      "after": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:iron_shovel",
+      "after": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_pickaxe",
+      "after": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:copper_shovel",
+      "after": "minecraft:copper_axe"
+    },
+    {
+      "item": "minecraft:copper_pickaxe",
+      "after": "minecraft:copper_axe"
+    },
+    {
+      "item": "minecraft:stone_shovel",
+      "after": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:stone_pickaxe",
+      "after": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:wooden_shovel",
+      "after": "minecraft:wooden_axe"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe",
+      "after": "minecraft:wooden_axe"
+    }
+  ]
+}

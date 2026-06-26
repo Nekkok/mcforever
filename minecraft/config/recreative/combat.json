@@ -1,0 +1,13 @@
+{
+  "action": "modify_tab",
+  "tabs": [
+    "minecraft:combat"
+  ],
+  "remove_items": [],
+  "add_items": [
+    {
+      "item": "minecraft:wolf_armor",
+      "after": "minecraft:turtle_helmet"
+    }
+  ]
+}

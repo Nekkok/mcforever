@@ -1,0 +1,207 @@
+{
+  "action": "modify_tab",
+  "tabs": [
+    "minecraft:ingredients"
+  ],
+  "remove_items": [
+    "minecraft:amethyst_shard",
+    "minecraft:ancient_debris",
+    "minecraft:bone",
+    "minecraft:bone_meal",
+    "minecraft:bordure_indented_banner_patern",
+    "minecraft:coast_armor_trim_smithing_template",
+    "minecraft:diamond",
+    "minecraft:emerald",
+    "minecraft:ender_eye",
+    "minecraft:experience_bottle",
+    "minecraft:feather",
+    "minecraft:fire_charge",
+    "minecraft:flower_banner_patern",
+    "minecraft:heart_of_the_sea",
+    "minecraft:heavy_core",
+    "minecraft:lapis_lazuli",
+    "minecraft:ominous_trial_key",
+    "minecraft:popped_chorus_fruit",
+    "minecraft:quartz",
+    "minecraft:string",
+    "minecraft:trial_key"
+  ],
+  "add_items": [
+    {
+      "item": "minecraft:flow_armor_trim_smithing_template",
+      "after": "minecraft:host_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:bolt_armor_trim_smithing_template",
+      "after": "minecraft:host_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:tide_armor_trim_smithing_template",
+      "after": "trailiertales:embrace_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:coast_armor_trim_smithing_template",
+      "after": "trailiertales:embrace_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:bordure_indented_banner_patern",
+      "after": "minecraft:field_masoned_banner_patern"
+    },
+    {
+      "item": "minecraft:flower_banner_patern",
+      "after": "minecraft:field_masoned_banner_patern"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit",
+      "after": "minecraft:resin_brick"
+    },
+    {
+      "item": "minecraft:fire_charge",
+      "after": "minecraft:book"
+    },
+    {
+      "item": "freezeframe:film",
+      "after": "minecraft:book"
+    },
+    {
+      "item": "minecraft:pink_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:magenta_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:purple_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:light_blue_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:cyan_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:green_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:orange_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:red_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:brown_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:black_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:gray_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:light_gray_dye",
+      "after": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:heavy_core",
+      "after": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "after": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:string",
+      "after": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:breeze_rod",
+      "after": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "after": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:bone",
+      "after": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "after": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:feather",
+      "after": "minecraft:blue_egg"
+    },
+    {
+      "item": "minecraft:turtle_scute",
+      "after": "minecraft:blue_egg"
+    },
+    {
+      "item": "minecraft:armadillo_scute",
+      "after": "minecraft:blue_egg"
+    },
+    {
+      "item": "minecraft:honeycomb",
+      "after": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:resin_clump",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:snowball",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:flint",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:quartz",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:emerald",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "after": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:diamond",
+      "after": "minecraft:netherite_ingot"
+    }
+  ]
+}

@@ -1,25 +1,25 @@
 {
   "beach": {
-    "coconutCrabSpawnChance": 0.2,
+    "coconutCrabSpawnChance": 0.0,
     "generateCoconutTrees": true,
-    "generateSeashells": true
+    "generateSeashells": false
   },
   "desert": {
     "generatePricklyPears": true,
-    "pricklyPearGrowthChance": 0.4,
-    "generateDesertRuins": true
+    "pricklyPearGrowthChance": 0.1,
+    "generateDesertRuins": false
   },
   "snowy": {
-    "spawnPenguins": true,
-    "generateThinIcePatches": true
+    "spawnPenguins": false,
+    "generateThinIcePatches": false
   },
   "plains": {
     "spawnSquirrels": true,
-    "generateWalnutTrees": true,
+    "generateWalnutTrees": false,
     "foxesAttackSquirrels": true
   },
   "lushCaves": {
-    "replaceAzaleaTree": true,
-    "generateSurfaceMoss": true
+    "replaceAzaleaTree": false,
+    "generateSurfaceMoss": false
   }
 }

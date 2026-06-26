@@ -24,7 +24,7 @@
 		"modifyFrozenWater": true,
 	},
 	"wind": {
-		"cloudMovement": true,
+		"cloudMovement": false,
 		"windParticles": true,
 		"windParticleFrequency": 50,
 		"windParticleSpawnAttempts": 1,

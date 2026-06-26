@@ -4,126 +4,152 @@
     "minecraft:building_blocks"
   ],
   "remove_items": [
-    "minecraft:resin_block",
+    "blockus:golden_bars",
+    "blockus:golden_chain",
+    "minecraft:amethyst_block",
+    "minecraft:chiseled_quartz_block",
     "minecraft:coal_block",
-    "minecraft:iron_block",
+    "minecraft:diamond_block",
+    "minecraft:emerald_block",
+    "minecraft:gold_block",
+    "minecraft:heavy_weighted_pressure_plate",
     "minecraft:iron_bars",
+    "minecraft:iron_block",
     "minecraft:iron_chain",
     "minecraft:iron_door",
     "minecraft:iron_trapdoor",
-    "minecraft:heavy_weighted_pressure_plate",
-    "minecraft:gold_block",
-    "minecraft:light_weighted_pressure_plate",
-    "minecraft:redstone_block",
-    "minecraft:emerald_block",
     "minecraft:lapis_block",
-    "minecraft:diamond_block",
-    "minecraft:amethyst_block",
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:netherite_block",
     "minecraft:quartz_block",
-    "minecraft:quartz_stairs",
-    "minecraft:quartz_slab",
-    "minecraft:chiseled_quartz_block",
     "minecraft:quartz_bricks",
     "minecraft:quartz_pillar",
-    "minecraft:smooth_quartz",
-    "minecraft:smooth_quartz_stairs",
-    "minecraft:smooth_quartz_slab",
-    "minecraft:netherite_block",
+    "minecraft:quartz_slab",
+    "minecraft:quartz_stairs",
+    "minecraft:redstone_block",
     "minecraft:reinforced_deepslate",
-    "minecraft:sculk"
+    "minecraft:resin_block",
+    "minecraft:sculk",
+    "minecraft:smooth_quartz",
+    "minecraft:smooth_quartz_slab",
+    "minecraft:smooth_quartz_stairs"
   ],
   "add_items": [
     {
-      "item": "minecraft:netherite_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
-    },
-    {
       "item": "minecraft:smooth_quartz_slab",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:smooth_quartz_stairs",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:smooth_quartz",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:quartz_pillar",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:quartz_bricks",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:chiseled_quartz_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:quartz_slab",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:quartz_stairs",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:quartz_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:amethyst_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
-    },
-    {
-      "item": "minecraft:diamond_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
-    },
-    {
-      "item": "minecraft:lapis_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:emerald_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "minecraft:lapis_block",
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:redstone_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:light_weighted_pressure_plate",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "blockbox:golden_trapdoor",
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "blockbox:golden_door",
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "blockus:golden_chain",
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "blockus:golden_bars",
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:gold_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:heavy_weighted_pressure_plate",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:iron_trapdoor",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:iron_door",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:iron_chain",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:iron_bars",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:iron_block",
-      "after": "thecopperierage:waxed_oxidized_weighted_pressure_plate"
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "minecraft:waxed_oxidized_copper_bulb",
+      "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "thecopperierage:waxed_oxidized_weighted_pressure_plate",
+      "after": "minecraft:waxed_oxidized_copper"
     },
     {
       "item": "minecraft:waxed_oxidized_copper_trapdoor",
@@ -160,6 +186,10 @@
     {
       "item": "minecraft:waxed_oxidized_copper_grate",
       "after": "minecraft:waxed_oxidized_copper"
+    },
+    {
+      "item": "minecraft:waxed_weathered_copper_bulb",
+      "after": "minecraft:waxed_weathered_copper"
     },
     {
       "item": "thecopperierage:waxed_weathered_weighted_pressure_plate",
@@ -202,6 +232,10 @@
       "after": "minecraft:waxed_weathered_copper"
     },
     {
+      "item": "minecraft:waxed_exposed_copper_bulb",
+      "after": "minecraft:waxed_exposed_copper"
+    },
+    {
       "item": "thecopperierage:waxed_exposed_weighted_pressure_plate",
       "after": "minecraft:waxed_exposed_copper"
     },
@@ -240,6 +274,10 @@
     {
       "item": "minecraft:waxed_exposed_copper_grate",
       "after": "minecraft:waxed_exposed_copper"
+    },
+    {
+      "item": "minecraft:waxed_copper_bulb",
+      "after": "minecraft:waxed_copper_block"
     },
     {
       "item": "thecopperierage:waxed_weighted_pressure_plate",
@@ -282,6 +320,10 @@
       "after": "minecraft:waxed_copper_block"
     },
     {
+      "item": "minecraft:oxidized_copper_bulb",
+      "after": "minecraft:oxidized_copper"
+    },
+    {
       "item": "thecopperierage:oxidized_weighted_pressure_plate",
       "after": "minecraft:oxidized_copper"
     },
@@ -320,6 +362,10 @@
     {
       "item": "minecraft:oxidized_copper_grate",
       "after": "minecraft:oxidized_copper"
+    },
+    {
+      "item": "minecraft:weathered_copper_bulb",
+      "after": "minecraft:weathered_copper"
     },
     {
       "item": "thecopperierage:weathered_weighted_pressure_plate",
@@ -362,6 +408,10 @@
       "after": "minecraft:weathered_copper"
     },
     {
+      "item": "minecraft:exposed_copper_bulb",
+      "after": "minecraft:exposed_copper"
+    },
+    {
       "item": "thecopperierage:exposed_weighted_pressure_plate",
       "after": "minecraft:exposed_copper"
     },
@@ -402,6 +452,10 @@
       "after": "minecraft:exposed_copper"
     },
     {
+      "item": "minecraft:copper_bulb",
+      "after": "minecraft:copper_block"
+    },
+    {
       "item": "thecopperierage:weighted_pressure_plate",
       "after": "minecraft:copper_block"
     },
@@ -440,6 +494,58 @@
     {
       "item": "minecraft:copper_grate",
       "after": "minecraft:copper_block"
+    },
+    {
+      "item": "blockus:small_soul_sandstone_brick_wall",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:cut_soul_sandstone_slab",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:small_soul_sandstone_brick_stairs",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:cut_soul_sandstone",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:soul_sandstone_brick_wall",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:smooth_soul_sandstone_slab",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:smooth_soul_sandstone_stairs",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:smooth_soul_sandstone",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:chiseled_soul_sandstone",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:soul_sandstone_wall",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:soul_sandstone_slab",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:soul_sandstone_stairs",
+      "after": "minecraft:polished_blackstone_brick_wall"
+    },
+    {
+      "item": "blockus:soul_sandstone",
+      "after": "minecraft:polished_blackstone_brick_wall"
     },
     {
       "item": "minecraft:chiseled_tuff_bricks",
@@ -550,54 +656,6 @@
       "after": "trailiertales:chiseled_andesite_bricks"
     },
     {
-      "item": "blockus:raw_bamboo_button",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_pressure_plate",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_trapdoor",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_door",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_fence_gate",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_fence",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_mosaic_slab",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_slab",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_mosaic_stairs",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_stairs",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_mosaic",
-      "after": "minecraft:bamboo_block"
-    },
-    {
-      "item": "blockus:raw_bamboo_planks",
-      "after": "minecraft:bamboo_block"
-    },
-    {
       "item": "minecraft:dark_oak_button",
       "after": "minecraft:cherry_button"
     },
@@ -658,6 +716,114 @@
       "after": "minecraft:cherry_button"
     },
     {
+      "item": "blockus:raw_bamboo_button",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_pressure_plate",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_trapdoor",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_door",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_fence_gate",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_fence",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_mosaic_slab",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_slab",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_mosaic_stairs",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_stairs",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_mosaic",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "blockus:raw_bamboo_planks",
+      "after": "minecraft:bamboo_block"
+    },
+    {
+      "item": "minecraft:pale_oak_button",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_pressure_plate",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_trapdoor",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_door",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_fence_gate",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_fence",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_slab",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_stairs",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_planks",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:stripped_pale_oak_wood",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "wilderwild:stripped_hollowed_pale_oak_log",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:stripped_pale_oak_log",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_wood",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "wilderwild:hollowed_pale_oak_log",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:pale_oak_log",
+      "after": "minecraft:dark_oak_button"
+    },
+    {
       "item": "minecraft:cherry_button",
       "after": "minecraft:acacia_button"
     },
@@ -715,66 +881,6 @@
     },
     {
       "item": "minecraft:cherry_log",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_button",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_pressure_plate",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_trapdoor",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_door",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_fence_gate",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_fence",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_slab",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_stairs",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_planks",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:stripped_maple_wood",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:stripped_hollowed_maple_log",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:stripped_maple_log",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_wood",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:hollowed_maple_log",
-      "after": "minecraft:acacia_button"
-    },
-    {
-      "item": "wilderwild:maple_log",
       "after": "minecraft:acacia_button"
     },
     {
