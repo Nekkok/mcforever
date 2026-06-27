@@ -39,12 +39,20 @@ minecraft/essential/**
 !minecraft/essential/config.toml
 
 # Configs
+
+minecraft/config/*.disabled
+minecraft/config/appleskin.json5
+minecraft/config/badoptimizations.txt
+minecraft/config/betternightvision.json
+minecraft/config/blockbox-config.json
+minecraft/config/c2me.toml
+minecraft/config/chat_heads.json5
+minecraft/config/essentialpatcher-equipped.json
+minecraft/config/ferritecore.mixin.properties
+minecraft/config/forgeconfigapiport.toml
 minecraft/config/frozenlib/
 minecraft/config/music_tweaks/
-minecraft/config/recreative/example_tabs.json.disabled
 minecraft/config/recreative_exports/
-minecraft/config/reliable_recipes/recipe_example.json.disabled
-minecraft/config/reliable_remover/removal_example.json.disabled
 
 # JEI
 minecraft/config/jei/**
