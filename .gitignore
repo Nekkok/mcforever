@@ -33,43 +33,86 @@ minecraft/texturepacks/
 minecraft/usercache.json
 minecraft/usernamecache.json
 
-# Essential
+# Essential: guardar solo config.toml
 minecraft/essential/**
 !minecraft/essential/
 !minecraft/essential/config.toml
 
-# Configs
+# Config: ignorar todo por defecto
+minecraft/config/**
+!minecraft/config/
 
-minecraft/config/*.disabled
-minecraft/config/appleskin.json5
-minecraft/config/badoptimizations.txt
-minecraft/config/betternightvision.json
-minecraft/config/blockbox-config.json
-minecraft/config/c2me.toml
-minecraft/config/chat_heads.json5
-minecraft/config/essentialpatcher-equipped.json
-minecraft/config/ferritecore.mixin.properties
-minecraft/config/forgeconfigapiport.toml
-minecraft/config/frozenlib/
-minecraft/config/music_tweaks/
-minecraft/config/recreative_exports/
+# Freezeframe
+!minecraft/config/freezeframe/
+!minecraft/config/freezeframe/config.json5
 
 # JEI
-minecraft/config/jei/**
 !minecraft/config/jei/
+!minecraft/config/jei/blacklist.json
 !minecraft/config/jei/jei-client.ini
 !minecraft/config/jei/jei-mod-id-format.ini
 !minecraft/config/jei/recipe-category-sort-order.ini
 
-# TrailierTales
-minecraft/config/trailiertales/*.json5
-!minecraft/config/trailiertales/
-!minecraft/config/trailiertales/entity.json5
-!minecraft/config/trailiertales/misc.json5
-!minecraft/config/trailiertales/worldgen.json5
+# No Chat Reports
+!minecraft/config/NoChatReports/
+!minecraft/config/NoChatReports/NCR-Client.json
+!minecraft/config/NoChatReports/NCR-Common.json
+!minecraft/config/NoChatReports/NCR-ServerPreferences.json
+
+# ReCreative
+!minecraft/config/recreative/
+!minecraft/config/recreative/building_blocks.json
+!minecraft/config/recreative/colored_blocks.json
+!minecraft/config/recreative/combat.json
+!minecraft/config/recreative/functional_blocks.json
+!minecraft/config/recreative/ingredients.json
+!minecraft/config/recreative/natural_blocks.json
+!minecraft/config/recreative/redstone_blocks.json
+!minecraft/config/recreative/tools_and_utilities.json
+
+# Reliable Recipes
+!minecraft/config/reliable_recipes/
+!minecraft/config/reliable_recipes/remove.json
+
+# Reliable Remover
+!minecraft/config/reliable_remover/
+!minecraft/config/reliable_remover/blockbox.json
+!minecraft/config/reliable_remover/blockus.json
+!minecraft/config/reliable_remover/thecopperierage.json
+!minecraft/config/reliable_remover/trailiertales.json
+!minecraft/config/reliable_remover/wilderwild.json
+
+# The Copperier Age
+!minecraft/config/thecopperierage/
+!minecraft/config/thecopperierage/main.json5
 
 # Wilder Wild
-minecraft/config/wilderwild/*.json5
 !minecraft/config/wilderwild/
-!minecraft/config/wilderwild/item.json5
+!minecraft/config/wilderwild/block.json5
+!minecraft/config/wilderwild/entity.json5
 !minecraft/config/wilderwild/mixins.json5
+!minecraft/config/wilderwild/worldgen.json5
+
+# Configs sueltas incluidas en el repo
+!minecraft/config/brbe.toml
+!minecraft/config/controlify.json
+!minecraft/config/coolrain.json
+!minecraft/config/distinctpotions-client.toml
+!minecraft/config/enchanteds_sodium_options.json
+!minecraft/config/entityculling.json
+!minecraft/config/global_packs.toml
+!minecraft/config/gnetum.json
+!minecraft/config/lambdynlights.toml
+!minecraft/config/languagereload.json
+!minecraft/config/modmenu.json
+!minecraft/config/moreculling.toml
+!minecraft/config/MouseTweaks.cfg
+!minecraft/config/notenoughanimations.json
+!minecraft/config/removebuttons.json
+!minecraft/config/rrls.toml
+!minecraft/config/smoothskies.json
+!minecraft/config/smoothswapping.json
+!minecraft/config/sodium-options.json
+!minecraft/config/sodium-shadowy-path-blocks-options.json
+!minecraft/config/vehicleupgrade-client.toml
+!minecraft/config/vehicleupgrade-server.toml

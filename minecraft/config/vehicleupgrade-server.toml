@@ -25,7 +25,7 @@ correct_passenger_collisions = true
 #When the player is riding any vehicle that vehicle will not be able to become a passenger of another vehicle.
 #E.g. a pig and walking over an empty boat will prevent the pig from entering the boat as long as it is controlled by the player.
 #Default Value: true
-prevent_vehicle_collisions_while_riding = true
+prevent_vehicle_collisions_while_riding = false
 #Allows ridden mobs to pass though leaves with a slight slowdown and some fancy particles.
 #Optionally still allows for walking on ground leaves while making leaves at and above eye height passable (with some unfortunate quirks).
 #The blocks and entities this applies to are defined by corresponding tags.
@@ -55,11 +55,11 @@ increase_passenger_interaction_range = true
 	#Allow large mobs like horses, spiders and polar bears to enter boats by shrinking them to an acceptable size when in the boat.
 	#The entities this applies to are defined by a corresponding tag.
 	#Default Value: true
-	shrink_over_sized_boat_passengers = true
+	shrink_over_sized_boat_passengers = false
 	#Allow boats to use jumping behaviour similar to horses for navigating on land.
 	#Default Value: ON_LAND
 	#Allowed Values: NEVER, ON_LAND, ALWAYS
-	jump_in_boats = "ON_LAND"
+	jump_in_boats = "NEVER"
 	#Increase the boat step height just enough to be able to row up carpets, path blocks, soul sand, etc.
 	#Default Value: true
 	increase_boat_step_height = true

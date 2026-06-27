@@ -15,10 +15,10 @@ translucent_mount = true
 	#The inventory to open first when riding a vehicle.
 	#Default Value: VEHICLE
 	#Allowed Values: PLAYER, VEHICLE
-	default_vehicle_inventory = "VEHICLE"
+	default_vehicle_inventory = "PLAYER"
 	#Add a button to the player and vehicle inventory for switching in-between.
 	#Default Value: true
-	vehicle_inventory_button = true
+	vehicle_inventory_button = false
 	#Press control + the inventory key, or press the inventory key twice to open the player inventory instead of the vehicle inventory.
 	#Default Value: CONTROL
 	#Allowed Values: NONE, DOUBLE_TAB, CONTROL

@@ -1,0 +1,38 @@
+#The color given to base potions (awkward, mundane and thick).
+#Default Value: BROWN
+#Allowed Values: WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, BLACK
+base_potions_color = "RED"
+#Makes the bottle form of greater and extended potion items unique.
+#Requires an asset reload to apply (e.g., via F3 + T).
+#Default Value: true
+unique_potion_bottles = false
+#Custom color overrides for mob effects, allows for restoring effect colors from previous Minecraft versions.
+#Format for every entry is "<namespace>:<path>,<rgbcolor>". Tags are supported, must be in the format of "#<namespace>:<path>,<rgbcolor>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
+#Default Value: []
+mob_effect_color_overrides = []
+#Give base potions (awkward, mundane and thick) a unique effect color to set them apart from water bottles.
+#Default Value: true
+distinct_base_potions = true
+#Highlights lesser, greater and extended potions directly in the potion name on the item tooltip.
+#Default Value: true
+unique_potion_names = true
+
+[potion_types]
+	#Potions categorized as granting a stronger than usual effect amplifier.
+	#Used for providing alternate item names & textures.
+	#This option applies before extended & lesser potions will be handled.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+	#Default Value: [*:strong_*, *:*_strong]
+	greater_potions = ["*:strong_*", "*:*_strong"]
+	#Potions categorized as having a longer than usual effect duration.
+	#Used for providing alternate item names & textures.
+	#This option applies only after greater potions have been handled, but before lesser potions will be.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+	#Default Value: [*:long_*, *:*_long]
+	extended_potions = ["*:long_*", "*:*_long"]
+	#Potions categorized as normal potions.
+	#Used for providing alternate item names.
+	#This option applies only after greater and extended potions have been handled.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+	#Default Value: [*:*]
+	lesser_potions = ["*:*"]

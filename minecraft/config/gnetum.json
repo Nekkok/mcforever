@@ -1,9 +1,9 @@
 {
   "enabled": {
-    "value": "OFF"
+    "value": "ON"
   },
   "showHudFps": {
-    "value": "ON"
+    "value": "OFF"
   },
   "downscale": {
     "value": "OFF"
